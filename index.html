@@ -5,16 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <style>p{text-align: center;}</style>
+  
   <title>Frontend Mentor | QR code component</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mytext{
+      
+      text-align: center;
+      border-radius: 25px ;
+      border: 2px solid #f1efef;
+      box-shadow: 10px;
+      padding: 5px;
+      width: 280px;
+      height: 200;
+    }
+    .mytext img{
+      border-radius: 10px;
+    }
+  </style>
 
 </head>
 
 <body>
-<p>
-  <img src="./images/image-qr-code.png" alt="QR code for Frontend Mentor" width="250px"/>
-  <strong><br>Improve your front-end skills by building projects</strong> 
-  <br>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-</p>
+  <div class="mytext"><p>
+    <img src="./images/image-qr-code.png" alt="QR code for Frontend Mentor" width="250px"/>
+    <strong><br>Improve your front-end skills by building projects</strong> 
+    <br><span style="color: #a1a1a1;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span> 
+  </p></div>
 </body>
 </html>
